@@ -73,3 +73,4 @@ class NotesController < ApplicationController
       params.require(:note).permit(:name, :body)
     end
 end
+4
